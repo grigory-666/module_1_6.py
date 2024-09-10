@@ -1,0 +1,15 @@
+my_dict = {'Inokentiy': 1985, 'Oleg': 2005, 'Pety': 1990}
+print(my_dict)
+print(my_dict['Oleg'])
+my_dict.update({'Grisha': 1990, 'Masha': 1998})
+print(my_dict)
+p = my_dict.pop('Pety')
+print(p)
+print(my_dict)
+print('--------------------------------------')
+my_set = {'red', 78, 'blue', True, 'black', 87, 78, 'red', 'black', 87, True}
+print(my_set)
+my_set.add('foot')
+my_set.add(False)
+my_set.remove(True)
+print(my_set)
